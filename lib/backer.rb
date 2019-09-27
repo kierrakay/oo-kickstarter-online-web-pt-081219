@@ -9,4 +9,8 @@ end
 def backed_projects
   @backed_projects
 end
+
+ def back_project(project)
+    Backer.backed_projects
+  end
 end
